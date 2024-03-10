@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/eupoint_1_send",
+		"down": "wirelesstools:blocks/eupoint_1_send",
+		"up": "wirelesstools:blocks/eupoint_1_send",
+		"north": "wirelesstools:blocks/eupoint_1_send",
+		"east": "wirelesstools:blocks/eupoint_1_send",
+		"south": "wirelesstools:blocks/eupoint_1_send",
+		"west": "wirelesstools:blocks/eupoint_1_send"
+	}
+}

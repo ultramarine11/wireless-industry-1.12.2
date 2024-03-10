@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/blockmachinescharger2",
+		"down": "wirelesstools:blocks/blockmachinescharger2",
+		"up": "wirelesstools:blocks/solar_part_top",
+		"north": "wirelesstools:blocks/blockmachinescharger2",
+		"east": "wirelesstools:blocks/blockmachinescharger2",
+		"south": "wirelesstools:blocks/blockmachinescharger2",
+		"west": "wirelesstools:blocks/blockmachinescharger2"
+	}
+}

@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/blockenergydispatcher",
+		"down": "wirelesstools:blocks/blockenergydispatcher",
+		"up": "wirelesstools:blocks/blockenergydispatcher",
+		"north": "wirelesstools:blocks/blockenergydispatcher",
+		"east": "wirelesstools:blocks/blockenergydispatcher",
+		"south": "wirelesstools:blocks/blockenergydispatcher",
+		"west": "wirelesstools:blocks/blockenergydispatcher"
+	}
+}

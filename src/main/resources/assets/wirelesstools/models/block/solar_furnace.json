@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/solar_part_top",
+		"down": "wirelesstools:blocks/solar_furnace_bottom",
+		"up": "wirelesstools:blocks/solar_part_top",
+		"north": "wirelesstools:blocks/solar_furnace_front",
+		"east": "wirelesstools:blocks/solar_furnace_side",
+		"south": "wirelesstools:blocks/solar_furnace_side",
+		"west": "wirelesstools:blocks/solar_furnace_side"
+	}
+}

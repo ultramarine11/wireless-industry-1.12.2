@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/blockxpgen_side_bottom",
+		"down": "wirelesstools:blocks/xpsender_side_bottom",
+		"up": "wirelesstools:blocks/expgen_top_active",
+		"north": "wirelesstools:blocks/blockxpgen_side_bottom",
+		"east": "wirelesstools:blocks/blockxpgen_side_bottom",
+		"south": "wirelesstools:blocks/blockxpgen_side_bottom",
+		"west": "wirelesstools:blocks/blockxpgen_side_bottom"
+	}
+}

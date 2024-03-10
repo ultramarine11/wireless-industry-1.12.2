@@ -1,0 +1,49 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"type": {
+			"wireless_machine_charger": {"model": "wirelesstools:wireless_charger_machine"},
+			"remote_item_collector": {"model": "wirelesstools:item_collector_machine"},
+			"wireless_charger_player": {"model": "wirelesstools:wireless_charger_player"},
+			"vacuum_player_chest": {"model": "wirelesstools:vacuum_chest_machine"},
+			"eu_point_1": {"model": "wirelesstools:eupoint1"},
+			"eu_point_1_active": {"model": "wirelesstools:eupoint1_active"},
+			"eu_point_2": {"model": "wirelesstools:eupoint2"},
+			"eu_point_2_active": {"model": "wirelesstools:eupoint2_active"},
+			"energy_dispatcher": {"model": "wirelesstools:energy_dispatcher"},
+			"tesseract": {"model": "wirelesstools:tesseract"},
+			"solar_wireless_charger_player": {"model": "wirelesstools:solar_wireless_charger_machine"},
+			"solar_furnace": {"model": "wirelesstools:solar_furnace"},
+			"solar_furnace_active": {"model": "wirelesstools:solar_furnace_active"},
+			"spectral_solar_panel_personal": {"model": "wirelesstools:spectral_solar_panel_personal"},
+			"singular_solar_panel_personal": {"model": "wirelesstools:singular_solar_panel_personal"},
+			"absorbing_solar_panel_personal": {"model": "wirelesstools:absorbing_solar_panel_personal"},
+			"photonic_solar_panel_personal": {"model": "wirelesstools:photonic_solar_panel_personal"},
+			"neutron_solar_panel_personal": {"model": "wirelesstools:neutron_solar_panel_personal"},
+			"advanced_solar_panel_personal": {"model": "wirelesstools:advanced_solar_panel_personal"},
+			"hybrid_solar_panel_personal": {"model": "wirelesstools:hybrid_solar_panel_personal"},
+			"ultimate_solar_panel_personal": {"model": "wirelesstools:ultimate_solar_panel_personal"},
+			"quantum_solar_panel_personal": {"model": "wirelesstools:quantum_solar_panel_personal"},
+			"proton_solar_panel_personal": {"model": "wirelesstools:proton_solar_panel_personal"},
+			"wireless_storage_personal": {"model": "wirelesstools:wireless_storage_personal"},
+			"wireless_storage_personal2": {"model": "wirelesstools:wireless_storage_personal2"},
+			"wireless_storage_personal3": {"model": "wirelesstools:wireless_storage_personal3"},
+			"wireless_storage_personal4": {"model": "wirelesstools:wireless_storage_personal4"},
+			"xpgenerator": {"model": "wirelesstools:xpgenerator"},
+			"xpgenerator_active": {"model": "wirelesstools:xpgenerator_active"},
+			"solarxpgen": {"model": "wirelesstools:solarxpgen"},
+			"solarxpgen_active": {"model": "wirelesstools:solarxpgen_active"},
+			"wirelesschargepad": {"model": "wirelesstools:wirelesschargepad"},
+			"wirelesschargepad_active": {"model": "wirelesstools:wirelesschargepad_active"}
+		},
+		"facing": {
+			"down": { "x": 90 },
+			"up": { "x": 270 },
+			"north": { "transform": "forge:default-block" },
+			"south": { "y": 180 },
+			"west": { "y": 270 },
+			"east": { "y": 90 }
+		},
+		"inventory": [{}]
+	}
+}

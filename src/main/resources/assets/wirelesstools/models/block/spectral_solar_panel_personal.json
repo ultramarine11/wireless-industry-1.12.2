@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/wireless_spsp_side",
+		"down": "wirelesstools:blocks/all_bottom",
+		"up": "wirelesstools:blocks/spsp_top",
+		"north": "wirelesstools:blocks/wireless_spsp_side",
+		"east": "wirelesstools:blocks/wireless_spsp_side",
+		"south": "wirelesstools:blocks/wireless_spsp_side",
+		"west": "wirelesstools:blocks/wireless_spsp_side"
+	}
+}

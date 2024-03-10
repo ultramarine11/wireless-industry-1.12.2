@@ -1,0 +1,26 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"type": {
+			"wireless_machine_charger": {"model": "wirelesstools:wireless_charger_machine"},
+			"remote_item_collector": {"model": "wirelesstools:item_collector_machine"},
+			"wireless_charger_player": {"model": "wirelesstools:wireless_charger_player"},
+			"eu_point_1": {"model": "wirelesstools:eupoint1"},
+			"eu_point_1_active": {"model": "wirelesstools:eupoint1_active"},
+			"eu_point_2": {"model": "wirelesstools:eupoint2"},
+			"eu_point_2_active": {"model": "wirelesstools:eupoint2_active"},
+			"energy_dispatcher": {"model": "wirelesstools:energy_dispatcher"},
+			"tesseract": {"model": "wirelesstools:tesseract"},
+			"solar_wireless_charger_player": {"model": "wirelesstools:solar_wireless_charger_machine"}
+		},
+		"facing": {
+			"down": { "x": 90 },
+			"up": { "x": 270 },
+			"north": { "transform": "forge:default-block" },
+			"south": { "y": 180 },
+			"west": { "y": 270 },
+			"east": { "y": 90 }
+		},
+		"inventory": [{}]
+	}
+}

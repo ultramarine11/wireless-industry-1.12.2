@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "wirelesstools",
+  "name": "Wireless Industry",
+  "description": "This mod wireless solar panels and many other interesting things",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["ultramarine11"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

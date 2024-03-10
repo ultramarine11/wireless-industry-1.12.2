@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/tesseract_side",
+		"down": "wirelesstools:blocks/tesseract_side",
+		"up": "wirelesstools:blocks/tesseract_side",
+		"north": "wirelesstools:blocks/tesseract_side",
+		"east": "wirelesstools:blocks/tesseract_side",
+		"south": "wirelesstools:blocks/tesseract_side",
+		"west": "wirelesstools:blocks/tesseract_side"
+	}
+}

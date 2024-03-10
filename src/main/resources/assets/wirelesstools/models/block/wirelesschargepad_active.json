@@ -1,0 +1,9 @@
+{
+   "parent": "wirelesstools:block/chpad",
+	"textures": {
+		"particle": "wirelesstools:blocks/wirelesschargepad_active_up",
+		"down": "wirelesstools:blocks/wirelesschargepad_down",
+		"up": "wirelesstools:blocks/wirelesschargepad_active_up",
+		"side": "wirelesstools:blocks/wirelesschargepad_side"
+	}
+}

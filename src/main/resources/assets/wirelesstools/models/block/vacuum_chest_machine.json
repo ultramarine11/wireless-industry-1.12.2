@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/vacuumplayerchest_texture",
+		"down": "wirelesstools:blocks/vacuumplayerchest_texture",
+		"up": "wirelesstools:blocks/vacuumplayerchest_texture",
+		"north": "wirelesstools:blocks/vacuumplayerchest_texture",
+		"east": "wirelesstools:blocks/vacuumplayerchest_texture",
+		"south": "wirelesstools:blocks/vacuumplayerchest_texture",
+		"west": "wirelesstools:blocks/vacuumplayerchest_texture"
+	}
+}

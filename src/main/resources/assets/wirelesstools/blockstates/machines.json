@@ -1,0 +1,26 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"type": {
+			"spectral_solar_panel_personal": {"model": "wirelesstools:spectral_solar_panel_personal"},
+			"singular_solar_panel_personal": {"model": "wirelesstools:singular_solar_panel_personal"},
+			"absorbing_solar_panel_personal": {"model": "wirelesstools:absorbing_solar_panel_personal"},
+			"photonic_solar_panel_personal": {"model": "wirelesstools:photonic_solar_panel_personal"},
+			"neutron_solar_panel_personal": {"model": "wirelesstools:neutron_solar_panel_personal"},
+			"advanced_solar_panel_personal": {"model": "wirelesstools:advanced_solar_panel_personal"},
+			"hybrid_solar_panel_personal": {"model": "wirelesstools:hybrid_solar_panel_personal"},
+			"ultimate_solar_panel_personal": {"model": "wirelesstools:ultimate_solar_panel_personal"},
+			"quantum_solar_panel_personal": {"model": "wirelesstools:quantum_solar_panel_personal"},
+			"proton_solar_panel_personal": {"model": "wirelesstools:proton_solar_panel_personal"}
+		},
+		"facing": {
+			"down": { "x": 90 },
+			"up": { "x": 270 },
+			"north": { "transform": "forge:default-block" },
+			"south": { "y": 180 },
+			"west": { "y": 270 },
+			"east": { "y": 90 }
+		},
+		"inventory": [{}]
+	}
+}

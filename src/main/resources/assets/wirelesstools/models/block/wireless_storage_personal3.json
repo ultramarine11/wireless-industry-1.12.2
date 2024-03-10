@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/personal_ws3",
+		"down": "wirelesstools:blocks/personal_ws3",
+		"up": "wirelesstools:blocks/personal_ws3",
+		"north": "wirelesstools:blocks/personal_ws3",
+		"east": "wirelesstools:blocks/personal_ws3",
+		"south": "wirelesstools:blocks/personal_ws3",
+		"west": "wirelesstools:blocks/personal_ws3"
+	}
+}

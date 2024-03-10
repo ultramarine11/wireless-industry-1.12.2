@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/wireless_absorbtionsp_side",
+		"down": "wirelesstools:blocks/all_bottom",
+		"up": "wirelesstools:blocks/absorbtionsp_top",
+		"north": "wirelesstools:blocks/wireless_absorbtionsp_side",
+		"east": "wirelesstools:blocks/wireless_absorbtionsp_side",
+		"south": "wirelesstools:blocks/wireless_absorbtionsp_side",
+		"west": "wirelesstools:blocks/wireless_absorbtionsp_side"
+	}
+}

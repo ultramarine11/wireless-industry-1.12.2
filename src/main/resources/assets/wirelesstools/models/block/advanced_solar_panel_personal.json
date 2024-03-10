@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"particle": "wirelesstools:blocks/asp_side",
+		"down": "wirelesstools:blocks/all_bottom",
+		"up": "wirelesstools:blocks/asp_top",
+		"north": "wirelesstools:blocks/asp_side",
+		"east": "wirelesstools:blocks/asp_side",
+		"south": "wirelesstools:blocks/asp_side",
+		"west": "wirelesstools:blocks/asp_side"
+	}
+}
