@@ -4,6 +4,7 @@ import cofh.thermalexpansion.block.device.BlockDevice;
 import cofh.thermalexpansion.block.machine.BlockMachine;
 import cofh.thermalexpansion.block.storage.BlockCell;
 import cofh.thermalexpansion.block.storage.BlockTank;
+import cofh.thermalfoundation.item.ItemMaterial;
 import cofh.thermalfoundation.item.ItemUpgrade;
 import com.brandon3055.draconicevolution.DEFeatures;
 import ic2.api.item.IC2Items;
@@ -20,6 +21,17 @@ import ru.wirelesstools.tileentities.EnumWITEs;
 public class IntegrationDEThExp {
     
     public static void addBothThExpDeIntegration() {
+        RecipesWI.addShapedRecipe(MainWI.wiTiles.getItemStack(EnumWITEs.wirelesschargepad),
+                new Object[] {
+                        "EEE",
+                        "CDC",
+                        "ABA",
+                        Character.valueOf('A'), ItemMaterial.gearEnderium,
+                        Character.valueOf('B'), IC2Items.getItem("te", "chargepad_mfsu"),
+                        Character.valueOf('C'), new ItemStack(DEFeatures.energyCrystal, 1, 1),
+                        Character.valueOf('D'), DEFeatures.energyInfuser,
+                        Character.valueOf('E'), ItemMaterial.plateLumium});
+        
         RecipesWI.addShapedRecipe(StackUtil.copyWithWildCard(new ItemStack(WI_Items.ender_quantum_boots.getInstance())),
                 new Object[] {
                         "DAD",

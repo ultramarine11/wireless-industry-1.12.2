@@ -4,6 +4,7 @@ import cofh.thermalexpansion.block.device.BlockDevice;
 import cofh.thermalexpansion.block.machine.BlockMachine;
 import cofh.thermalexpansion.block.storage.BlockCell;
 import cofh.thermalexpansion.block.storage.BlockTank;
+import cofh.thermalfoundation.item.ItemMaterial;
 import cofh.thermalfoundation.item.ItemUpgrade;
 import com.brandon3055.draconicevolution.DEFeatures;
 import com.chocohead.gravisuite.GS_Items;
@@ -287,6 +288,17 @@ public class RecipesWI {
     @Optional.Method(modid = "thermalexpansion")
     private void addThExpIntegration() {
         this.addDefaultIntegrationRecipes();
+        
+        RecipesWI.addShapedRecipe(MainWI.wiTiles.getItemStack(EnumWITEs.wirelesschargepad),
+                new Object[] {
+                        "EEE",
+                        "CDC",
+                        "ABA",
+                        Character.valueOf('A'), ItemMaterial.gearEnderium,
+                        Character.valueOf('B'), IC2Items.getItem("te", "chargepad_mfsu"),
+                        Character.valueOf('C'), ItemMaterial.gearPlatinum,
+                        Character.valueOf('D'), BlockMachine.machineCharger,
+                        Character.valueOf('E'), ItemMaterial.plateLumium});
     
         addShapedRecipe(MainWI.wiTiles.getItemStack(EnumWITEs.energy_dispatcher),
                 new Object[] {
@@ -343,6 +355,16 @@ public class RecipesWI {
     
     @Optional.Method(modid = "draconicevolution")
     private void addDEIntegration() {
+        RecipesWI.addShapedRecipe(MainWI.wiTiles.getItemStack(EnumWITEs.wirelesschargepad),
+                new Object[] {
+                        "   ",
+                        "CDC",
+                        "ABA",
+                        Character.valueOf('A'), DEFeatures.wyvernCore,
+                        Character.valueOf('B'), IC2Items.getItem("te", "chargepad_mfsu"),
+                        Character.valueOf('C'), new ItemStack(DEFeatures.energyCrystal, 1, 2),
+                        Character.valueOf('D'), DEFeatures.energyInfuser});
+        
         addShapedRecipe(StackUtil.copyWithWildCard(new ItemStack(WI_Items.absorbing_saber.getInstance())),
                 new Object[] {
                         "DAD",

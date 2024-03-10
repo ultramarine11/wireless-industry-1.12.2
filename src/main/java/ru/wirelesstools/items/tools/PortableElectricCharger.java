@@ -1,8 +1,6 @@
 package ru.wirelesstools.items.tools;
 
 import cofh.redstoneflux.api.IEnergyContainerItem;
-import com.denfop.componets.AdvEnergy;
-import com.denfop.tiles.base.TileEntityInventory;
 import ic2.api.energy.EnergyNet;
 import ic2.api.item.ElectricItem;
 import ic2.core.IC2;
@@ -221,7 +219,7 @@ public class PortableElectricCharger extends BaseElectricItem implements IEnergy
                         TileEntity te = world.getTileEntity(pos);
                         if(te instanceof TileEntityBlock) {
                             TileEntityBlock teBlock = (TileEntityBlock)te;
-                            if(teBlock instanceof TileEntityInventory) {
+                            /*if(teBlock instanceof TileEntityInventory) {
                                 TileEntityInventory teInv = (TileEntityInventory)teBlock;
                                 if(teInv.hasComp(AdvEnergy.class)) {
                                     AdvEnergy advEnergy = teInv.getComp(AdvEnergy.class);
@@ -255,8 +253,8 @@ public class PortableElectricCharger extends BaseElectricItem implements IEnergy
                                         }
                                     }
                                 }
-                            }
-                            else if(teBlock.hasComponent(Energy.class)) {
+                            }*/
+                            if(teBlock.hasComponent(Energy.class)) {
                                 Energy energy = teBlock.getComponent(Energy.class);
                                 if(!energy.getSinkDirs().isEmpty() && energy.getSourceDirs().isEmpty() && !energy.isMultiSource()) {
                                     if(energy.getFreeEnergy() > 0.0) {

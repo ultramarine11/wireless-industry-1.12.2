@@ -24,13 +24,11 @@ import ru.wirelesstools.api.WirelessTransfer;
 import ru.wirelesstools.config.ConfigWI;
 import ru.wirelesstools.general.CTabWI;
 import ru.wirelesstools.general.OverlayWI;
-import ru.wirelesstools.general.RecipesWI;
 import ru.wirelesstools.items.WI_Items;
 import ru.wirelesstools.proxy.CommonPlatform;
 import ru.wirelesstools.tileentities.CommonTEs;
 import ru.wirelesstools.tileentities.EnumWITEs;
 import ru.wirelesstools.tileentities.othertes.transferhandler.EnergyTransferCommon;
-import ru.wirelesstools.tileentities.othertes.transferhandler.EnergyTransferIU;
 import ru.wirelesstools.wirelesshandler.WirelessHandler;
 import ru.wirelesstools.wnet.TesseractRegistry;
 
@@ -115,10 +113,10 @@ public class MainWI {
         if(event.getSide().isClient()) {
             new OverlayWI();
         }
-        if(Loader.isModLoaded("industrialupgrade"))
+        /*if(Loader.isModLoaded("industrialupgrade"))
             WirelessTransfer.transfer = new EnergyTransferIU();
-        else
-            WirelessTransfer.transfer = new EnergyTransferCommon();
+        else*/
+        WirelessTransfer.transfer = new EnergyTransferCommon();
         
         CommonTEs.buildDummies();
         EnumWITEs.buildDummies();
